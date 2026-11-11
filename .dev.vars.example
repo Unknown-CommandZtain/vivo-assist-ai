@@ -1,0 +1,6 @@
+# Example for local Wrangler development ONLY. Copy to .dev.vars and replace
+# the values below. Do not publish the real .dev.vars file.
+TELEGRAM_BOT_TOKEN="REPLACE_WITH_YOUR_NEW_BOT_TOKEN"
+WEBHOOK_SECRET="REPLACE_WITH_RANDOM_SECRET_OF_32_PLUS_CHARACTERS"
+GEMINI_API_KEY="REPLACE_WITH_GEMINI_API_KEY"
+SERPAPI_KEY="REPLACE_WITH_SERPAPI_KEY"

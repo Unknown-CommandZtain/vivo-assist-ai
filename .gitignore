@@ -1,0 +1,26 @@
+# Local development secrets
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Account-specific Wrangler deployment configuration (copy from template)
+wrangler.jsonc
+wrangler.toml
+
+# Cloudflare / Node / local tooling
+.wrangler/
+node_modules/
+dist/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# Private exports
+backups/
+private/
+*.pem
+*.key

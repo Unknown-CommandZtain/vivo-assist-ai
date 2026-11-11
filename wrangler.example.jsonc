@@ -1,0 +1,24 @@
+{
+  // Copy to wrangler.jsonc and replace every placeholder before deploying.
+  // Do not add credentials here. Use secrets.
+  "name": "vivo-assist-ai",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-11",
+  "workers_dev": true,
+  "vars": {
+    "ADMIN_ID": "REPLACE_WITH_YOUR_NUMERIC_TELEGRAM_ID",
+    "WORKER_ORIGIN": "https://vivo-assist-ai.REPLACE-SUBDOMAIN.workers.dev",
+    "GEMINI_MODEL": "gemini-3.1-flash-lite",
+    "LIVE_SEARCH_ENABLED": "true"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vivo_assist_ai_db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_UUID"
+    }
+  ],
+  "triggers": {
+    "crons": ["* * * * *"]
+  }
+}
