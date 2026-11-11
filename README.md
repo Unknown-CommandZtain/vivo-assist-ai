@@ -1,6 +1,6 @@
-# vivo Assist AI 💙🤖
+# vivo Assist AI 🤖
 
-An **unofficial Telegram assistant for vivo and iQOO communities**, powered by Cloudflare Workers, Cloudflare D1, Google Gemini, and optional SerpApi web search.
+An **unofficial Telegram assistant for vivo and iQOO communities, created by Unknown_CommandZtain**, powered by Cloudflare Workers, Cloudflare D1, Google Gemini, and optional SerpApi web search.
 
 > This is an independent community project. It is **not affiliated with, endorsed by, or operated by vivo or iQOO**. Device guides can differ by model, country, and firmware. Always verify software releases and firmware updates against official sources.
 
@@ -83,6 +83,6 @@ Please read [SECURITY.md](SECURITY.md). The sample configuration contains placeh
 
 ## Project status
 
-**v2.1, clean-help release.** Based on the author's Cloudflare Worker implementation. This repository provides the code and documentation; it does not provision accounts or deploy on your behalf.
+**v1.0, pre-release.** Based on the author's Cloudflare Worker implementation. This repository provides the code and documentation; it does not provision accounts or deploy on your behalf.
 
 **Licensing:** No license is included yet. Public visibility alone does not grant reuse rights. The repository owner can select and add an appropriate license when ready.
