@@ -1,4 +1,4 @@
-# Deployment guide: vivo Assist AI
+# Deployment guide for developers
 
 This walkthrough is for a *new* deployment. If you already have a running bot, keep its existing Worker, D1 database, and Telegram token; only update the source file, and do not run `/setup` unless reconnecting the webhook is necessary.
 
