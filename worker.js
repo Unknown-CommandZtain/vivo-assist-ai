@@ -1,5 +1,5 @@
 /*
- * vivo Assist AI v2.1 | current-info patch
+ * vivo Assist AI v1.0 | pre-release patch
  *
  * Required D1 binding: DB (use a NEW, separate D1 database)
  * Required Cron: * * * * *
